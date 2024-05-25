@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fashion</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0 , shrink-to fit=no">
+<!-- Jquery File -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/slide-menu.js"></script>
+<!-- Slider CDN-->
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+
+
+<!-- Font Awsome 4 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- FEVICON -->
+<link rel="apple-touch-icon" sizes="57x57" href="images/FEVICON/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/FEVICON/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/FEVICON/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/FEVICON/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/FEVICON/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/FEVICON/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/FEVICON/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/FEVICON/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/FEVICON/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/FEVICON/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="images/FEVICON/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/FEVICON/favicon-16x16.png">
+<link rel="manifest" href="images/FEVICON/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="images/FEVICON/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!-- FEVICON End-->
+<!-- External CSS Files -->
+<link rel="stylesheet" type="text/css" href="css/fashion.css">
+
+<!-- External CSS Files End-->
+</head>
+<body>
+<!-- Top Bar -->
+    <div class="top-bar">
+        <div class="a"><a href=""><i class="fa fa-envelope"></i><span> mail@example.com</span></a>
+            <a href="tel:9425317154">
+      <i class="fa fa-phone"></i><span> +91 9425317154</span></a>
+  </div>
+       <div class="icon-box">
+        <a href="">
+       <i class="fa fa-facebook top-icon"></i></a>
+       <a href="">
+       <i class="fa fa-instagram top-icon"></i></a>
+       <a href="">
+       <i class="fa fa-twitter top-icon"></i></a>
+       </div>
+    </div>
+        <!-- Top Bar End -->
+
+	<!-- Header-Section-Start -->
+<span class="screen-darken"></span>
+<div class="container-fluid p-0">
+<div class="logo-btn d-flex">
+<button data-trigger="navbar_main" class="d-lg-none btn btn-dark" type="button">  <i class="fa fa-bars"></i> </button>
+<img src="images/COTEX INDIA LOGO.png" alt="" class="img-fluid logo-img"></div>
+
+<!-- ============= COMPONENT ============== -->
+<nav id="navbar_main" class="mobile-offcanvas navbar navbar-expand-lg navbar-dark p-0">
+ <div class="container-fluid">
+    <div class="offcanvas-header">  
+    <button class="btn-close float-end"></button>
+  </div>
+    <a class="navbar-brand" href="fashion.html"><img src="images/COTEX INDIA LOGO.png" class="img-fluid" alt=""></a>
+
+  <ul class="navbar-nav">
+    <li class="nav-item active"> <a class="nav-link" href="fashion.html">Home </a> </li>
+    <li class="nav-item"><a class="nav-link" href="about.html"> About us</a></li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Products <i class="fa fa-caret-down"></i></a>
+        <ul class="dropdown-menu menu">
+       
+        <li class="has-megasubmenu">
+           <a class="dropdown-item" href="#"> Top Wear <i class="fa fa-caret-right sub-icon"></i></a>
+           <div class="megasubmenu dropdown-menu">
+           <div class="row g-0">
+                  
+                          
+                            <ul class="list-unstyled p-0 m-0">
+                                <li><a href="men.html" class="dropdown-item">Men Shirt</a></li>
+                                
+                            </ul>
+                    <!-- end col-3 -->
+                    
+                </div><!-- end row -->
+         </div>
+        </li>
+        <li class="has-megasubmenu">
+           <a class="dropdown-item" href="#"> Bottom Wear <i class="fa fa-caret-right sub-icon"></i></a>
+           <div class="megasubmenu dropdown-menu" id="megasubmenu">
+           <div class="row ">
+                    
+                          
+                            <ul class="list-unstyled">
+                                <li><a href="lower.html" class="dropdown-item">Lower </a></li>
+                                <li><a href="boxer.html" class="dropdown-item">Boxer </a></li>
+                                
+                            </ul>
+                    <!-- end col-3 -->
+                    
+                </div><!-- end row -->
+         </div>
+        </li>
+       
+        </ul>
+    </li>
+
+    <li class="nav-item active"> <a class="nav-link" href="arrival.html">New Arrivals </a> </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Enquiry <i class="fa fa-caret-down"></i></a>
+        <ul class="dropdown-menu menu">
+        <li><a class="dropdown-item" href="enquiry.html"> Bulk Order Enquiry</a></li>
+        <!-- <li><a class="dropdown-item" href="enquiry.html"> Franchise Enquiry</a></li> -->
+        </ul>
+    </li>
+    <li class="nav-item active"> <a class="nav-link" href="contact.html">Contact us</a> </li>
+
+
+  </ul>
+
+
+ </div> <!-- container-fluid.// -->
+</nav>
+</div>
+<!-- ============= COMPONENT END// ============== -->
+<!-- Social icon -->
+<div class="icon-bar">
+		<a href=""><i class="fa fa-facebook"></i></a>
+		<a href=""><i class="fa fa-whatsapp"></i></a>
+		<a href=""><i class="fa fa-instagram"></i></a>
+		<a href=""><i class="fa fa-phone"></i></a>
+	</div>
+	<!-- Social icon -->
+<!-- First Section -->
+<section class="container-fluid slider-section p-0">
+	<!-- Swiper -->
+    <div class="swiper HomeSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide" style="background:url(images/banner1.jpg) no-repeat">
+          <div class="content">
+                    <span>upto 50% off</span>
+                    <h3>women's Fashion</h3>
+                    <a href="#" class="btn btn-dark">Shop Now</a>
+                </div>
+        </div>
+        <div class="swiper-slide slide" style="background:url(images/banner2.jpg) no-repeat">
+        	<div class="content">
+                    <span>upto 50% off</span>
+                    <h3>men's Fashion</h3>
+                    <a href="#" class="btn btn-dark">Shop Now</a>
+                </div>
+        </div>
+        <div class="swiper-slide slide" style="background:url(images/slider1.jpg) no-repeat">
+        	<!-- <div class="content">
+                    <span>upto 50% off</span>
+                    <h3>kid's Fashion</h3>
+                    <a href="#" class="btn">Shop Now</a>
+                </div> -->
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+	
+</section>
+<!-- First Section End -->
+
+<!-- Second Section -->
+<section class="explor-section bg-white">
+<div class="container">
+  <div class="row justify-content-center">
+
+     <!--      <div class="column">  
+   <div class="img-box">
+        <img src="images/02.jpeg" style="height: 268px; max-height: 300px;"/>
+       
+      </div>
+      
+      <div class="img-box">
+        <img src="images/03.jpeg" style="height: 268px; max-height: 300px;"/>
+      </div>
+      </div>
+
+      <div class="column">
+   <div class="img-box">
+        <img src="images/05.jpeg" style="height: 268px; max-height: 300px;" />
+      </div>
+      
+      <div class="img-box">
+        <img src="images/08.jpeg" style="height: 268px; max-height: 300px;"/>
+      </div>
+      </div>
+
+      <div class="column"> 
+   <div class="img-box">
+        <img src="images/04.jpeg" />
+       
+      </div>
+
+      </div> -->
+
+<div class="column-right col-md-7">
+  <div class="row">
+    <figure class="img-itm col-6">
+      <img src="images/03.jpeg" class="img-fluid">
+    </figure>
+     <figure class="img-itm col-6">
+      <img src="images/02.jpeg" class="img-fluid">
+    </figure>
+    <figure class="img-itm col-6">
+      <img src="images/05.jpeg" class="img-fluid">
+    </figure>
+    <figure class="img-itm col-6">
+      <img src="images/05.jpeg" class="img-fluid">
+    </figure>
+  </div>
+</div>
+<div class="column-left col-md-5" style="">
+  <figure class="img-itm">
+      <img src="images/04.jpeg"   style="width: 92%;">
+    </figure>
+</div>
+
+  </div>
+</div>
+</section>
+
+
+
+
+
+
+
+<!-- <section class="container story-container">
+	<div class="row">
+		<div class="col-md-4 justify-content-center d-flex flex-column">
+      <h2 class="mobile-heading">Who <span>we are</span></h2>
+			<div class="story-image">
+				<img src="images/tshirt-square.jpg" alt="" class="img-fluid d-block about-img-front">
+			</div>
+		</div>
+		<div class="col-md-8 content">
+			<h2>Who <span>we are</span></h2>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore at delectus nulla quaerat totam possimus, obcaecati corrupti nam rem dolor ipsum? Veniam impedit assumenda maxime harum neque minus accusantium cum in quod eum enim molestiae ipsa, optio eveniet, officia voluptatum. Sunt minima aspernatur voluptatem similique autem deserunt rem eius! Odio nisi ducimus inventore voluptatem reiciendis animi autem, explicabo dolor magnam quaerat nesciunt, sed! Blanditiis esse vel quo illum eos tempora. Ipsa, dignissimos, impedit. Eum iusto quas rem eius voluptatem id quidem reprehenderit doloremque, mollitia distinctio deserunt recusandae. Quasi, repellendus maxime!</p>
+			<a href="" class="btn">Read More</a>
+		</div>
+	</div>
+	</section> -->
+<!-- Second Section End -->
+<!-- New Arriwal -->
+  <section class="container arrival-section">
+    <div class="row">
+      <h1 class="text-center">New <span>Arrivals</span> </h1>
+      <!-- Swiper -->
+    <div class="swiper arrivalSwiper">
+      <div class="swiper-wrapper">
+      <!-- 
+         <div class="col-md-3 col-sm-6 col-6">
+    </div>
+      <div class="col-md-3 col-sm-6 col-6">
+        
+    </div>
+      <div class="col-md-3 col-sm-6 col-6">   
+    </div>
+    <div class="col-md-3 col-sm-6 col-6">
+        </div> -->
+        <div class="swiper-slide">
+          <div class="product-box">
+            <div class="product-image">
+                <a href="#" class="image">
+                    <img class="pic-1" src="product/2.png">
+                    <img class="pic-2" src="product/1.png">
+                </a>
+                
+                <!-- <span class="product-new-label">new</span> -->
+            </div>
+            <div class="product-content">
+                <h3 class="title"><a href="#">Men's T-Shirt</a></h3>
+                <div class="price">$69.99</div>
+                 
+            </div>
+        </div>
+      </div>
+        <div class="swiper-slide">
+          <div class="product-box">
+            <div class="product-image">
+                <a href="#" class="image">
+                    <img class="pic-1" src="product/7.png">
+                    <img class="pic-2" src="product/8.png">
+                </a>
+             
+            </div>
+            <div class="product-content">
+                <h3 class="title"><a href="#">Men's T-Shirt</a></h3>
+                <div class="price">$69.99</div>
+                 
+            </div>
+        </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="product-box">
+            <div class="product-image">
+                <a href="#" class="image">
+                    <img class="pic-1" src="product/3.png">
+                    <img class="pic-2" src="product/4.png">
+                </a>
+             
+            </div>
+            <div class="product-content">
+                <h3 class="title"><a href="#">Men's T-Shirt</a></h3>
+                <div class="price">$69.99</div>
+                 
+            </div>
+        </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="product-box ">
+            <div class="product-image">
+                <a href="#" class="image">
+                    <img class="pic-1" src="product/5.png">
+                    <img class="pic-2" src="product/6.png">
+                </a>
+                
+            </div>
+            <div class="product-content">
+                <h3 class="title"><a href="#">Men's T-Shirt</a></h3>
+                <div class="price">$69.99</div>
+                 
+            </div>
+        </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="product-box ">
+            <div class="product-image">
+                <a href="#" class="image">
+                    <img class="pic-1" src="product/5.png">
+                    <img class="pic-2" src="product/6.png">
+                </a>
+                
+            </div>
+            <div class="product-content">
+                <h3 class="title"><a href="#">Men's T-Shirt</a></h3>
+                <div class="price">$69.99</div>
+                 
+            </div>
+        </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="product-box ">
+            <div class="product-image">
+                <a href="#" class="image">
+                    <img class="pic-1" src="product/5.png">
+                    <img class="pic-2" src="product/6.png">
+                </a>
+               
+            </div>
+            <div class="product-content">
+                <h3 class="title"><a href="#">Men's T-Shirt</a></h3>
+                <div class="price">$69.99</div>
+                 
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+        
+      </div>
+      <center>
+      <a href="" class="btn btn-lg btn-outline">See More</a></center>
+  </section>
+  <!-- New Arriwal End -->
+<!-- Counter Section  -->
+<!-- <section class="container counter-section">
+    <div class="row">
+        <div class="col-md-3 col-sm-6 col-6">
+            <div class="counter">
+                <div class="counter-content">
+                    <div class="counter-icon">
+                        <i class="fa fa-smile-o"></i>
+                    </div>
+                    
+                    <div class="wrapper d-flex justify-content-center">
+                    <span>30</span>
+                    K</div>
+                    <h3>Happy Customer</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-6">
+            <div class="counter ">
+                <div class="counter-content">
+                    <div class="counter-icon">
+                        <i class="fa fa-clock-o"></i>
+                    </div>
+                    
+                    <div class="wrapper d-flex justify-content-center">
+                    <span>20</span>
+                    +</div>
+                    <h3>Years in Business</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-6">
+            <div class="counter">
+                <div class="counter-content">
+                    <div class="counter-icon">
+                        <i class="fa fa-users"></i>
+                    </div>
+                    
+                    <div class="wrapper d-flex justify-content-center">
+                    <span>85</span>
+                    %</div>
+                    <h3>Return Customers</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-6">
+            <div class="counter">
+                <div class="counter-content">
+                    <div class="counter-icon">
+                        <i class="fa fa-trophy"></i>
+                    </div>
+                    
+                    <div class="wrapper d-flex justify-content-center">
+                    <span>13</span>
+                    +</div>
+                    <h3>Awards Won</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<!-- Counter Section End -->
+<!-- count Section Start -->
+<section class="count-section">
+  <div class="container">
+    <div class="row">
+      <h2 class="text-center">#ProudlyMadeInIndia</h2>
+      <div class="first-i col-sm-4 text-center">
+        <img src="images/i3.png">
+        <span>Safe and Secure</span>
+      </div>
+      <div class="second-i col-sm-4 text-center">
+        <img src="images/i2.png" style="width: 50px;">
+        <span>Trusted Free Delivery</span>
+      </div>
+      <div class="third-i col-sm-4 text-center" >
+        <img src="images/i1.png" style="width: 40px;">
+        <span>Quality Assured</span>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- count Section End -->
+
+  <!-- testimonials-section Start-->
+<section class="testimonials-section">
+  <div class="container">
+    <div class="row">
+    <!-- Swiper -->
+    <div class="swiper testimonial">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+    <div class="testimonial-box text-center ">
+      <div class="content">
+      <h5><i class="fa fa-quote-left mb-2"></i></h5>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione similique, labore quidem delectus tempora!</p>
+                        <h6 class="post"> - Name </h6>
+    </div>
+</div>
+</div>
+       <div class="swiper-slide">
+    <div class="testimonial-box text-center ">
+      <div class="content">
+      <h5><i class="fa fa-quote-left  mb-2"></i></h5>
+      <p>Lorem, ipsum dolor sit amet consectetur, labore quidem delectus tempora!</p>
+                        <h6 class="post"> - Name </h6>
+    </div>
+</div>
+</div>
+
+<div class="swiper-slide">
+    <div class="testimonial-box text-center ">
+      <div class="content">
+      <h5><i class="fa fa-quote-left  mb-2"></i></h5>
+      <p>Lorem, ipsum dolor sit amet consectetur di, ratione similique, labore quidem delectus tempora!</p>
+                        <h6 class="post"> - Name </h6>
+    </div>
+</div>
+</div>
+</div>
+<div class="swiper-pagination"></div>
+</div>
+  </div>
+</div>
+</section>
+  <!-- testimonials-section -->
+
+<!-- about-story -->
+<section class="story-section container">
+  <h4>Cotex: explore all things beautiful</h4>
+<p>Pinklay is an Indian home decor brand that caters to the house proud in all of us. Our designs are rooted in colour that is contemporary, tasteful, and authentic, and crafted to convey stories inspired from natural elements, diverse crafts, and cultures. We work across a variety of art forms – such as hand block print, kantha, dabu, bagru, ajrakh, kalamkari, ikat, embroidery, patchwork, metal etching, wood carving, and hand painting – often fusing traditional and modern design ideas in unexpected ways. Our collections push design boundaries and offer a wide range of stylish home décor, accents, furnishings, and accessories for your bedroom, living, dining, kitchen, and outdoors – and festive occasions, weddings, and gifts. Each Pinklay product aspires to be a conversation starter, determined to create memories. Shop online for quilts, bed covers, dohars, bedsheets, duvet covers, bath towels, travel cases, throws, rugs, furniture, cushions, curtains, table cloths, table mats, table runners, ceramics, wooden tableware, baby and kids bedding, kids décor, kidswear, plush toys, alphabet cushions, home decor, women's clothing, dresses, festive and ethnic wear, bath robes, and more.</p>
+</section>
+
+<!-- about End-->
+<!-- CTA Secion -->
+    <section class="get">
+      <div class="row">
+    <div class="col-md-9 get-touch ">
+      <h2>Exclusive Offer are waiting for you</h2></div>
+      <div class="col-md-3 call-box">
+      <a href="" class="btn btn-lg "><i class="fas fa-phone-alt"></i> Call Now </a>
+    </div>
+  </div>
+</section>
+  <!-- CTA Secion End-->
+
+<!-- Product Section  -->
+<!-- <section class="container product-container">
+	<div class="row">
+		<h1 class="text-center">Exclusive <span>Products</span></h1>
+		<div class="col-md-6 col-sm-12">
+			<div class="product-img">
+				<img src="images/img-4.jpg" alt="">
+			<div class="content">
+				<h4> Top Wear</h4>
+				<a href="" class="btn btn-dark">View More</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-6 col-sm-12">
+			<div class="product-img">
+				<img src="images/img-5.jpg" alt="">
+			<div class="content">
+                <h4>Bottom Wear</h4>
+                <a href="#" class="btn btn-outline">See More</a>
+            </div>
+		</div>
+	</div>
+</div>
+</section> -->
+<!-- Product Section End -->
+<!-- banner section starts  -->
+
+<section class="banner-box container">
+<div class="row">
+  <div class="col-md-6">
+    <div class="banner">
+        <img src="images/plain2.jpg" alt="">
+        <div class="content">
+            <span>special offer</span>
+            <h3>upto 50% off</h3>
+            <a href="#" class="btn btn-dark mx-2">View More</a>
+        </div>
+    </div>
+</div>
+<div class="col-md-6">
+    <div class="banner">
+        <img src="images/plain2.jpg" alt="" >
+        <div class="content">
+            <span>special offer</span>
+            <h3>upto 50% off</h3>
+            <a href="#" class="btn btn-dark mx-2">View More</a>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+<!-- banner section End  -->
+
+  
+
+  <!-- testimonials-section -->
+  <!-- <section id="testimonials-section" class="text-center">
+  <div class="container">
+    <div class="section-title">
+      <h2> What they said <strong>about us</strong> </h2>
+      <hr style="background: #FFF; margin: 1.5rem 0;">
+    </div>
+
+    <div class="swiper testimonialSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+        	<div class="item">
+            <p><span><i class="fa fa-quote-left mx-5"></i></span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id veniam magnam, deserunt. Id harum tempora tenetur perferendis ipsum sint veniam, cumque nesciunt quis repellat beatae quas facere, mollitia optio facilis iure atque, sit eos accusamus ullam laborum. Et id eum earum harum, ipsam cumque accusantium beatae, repellat adipisci iusto, maiores odit nihil amet nostrum, culpa ut accusamus. Officia excepturi velit illum, a qui, explicabo voluptatem, quidem tempore vitae neque, ut itaque in iusto mollitia reiciendis! Fugit iusto maiores recusandae aperiam tempora illum.
+            <span><i class="fa fa-quote-right mx-5"></i></span></p>
+            <p class="mb-5"><strong>Clint</strong>, Executive manager
+, Company</p>
+          </div>
+      </div>
+        <div class="swiper-slide">
+        	<div class="item">
+            <p><span><i class="fa fa-quote-left mx-5"></i></span>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis nostrum asperiores ducimus nobis nesciunt, consequatur doloremque, esse, sint itaque repudiandae incidunt autem fugiat, ex. Reprehenderit voluptate reiciendis similique quod. Provident, debitis mollitia quisquam minus voluptatem explicabo numquam illum a accusantium quia fuga modi dignissimos consequuntur optio perspiciatis, blanditiis accusamus autem quod minima tenetur vel ducimus. Earum quasi sint laudantium magnam illo voluptates in animi, cupiditate tempore quos nemo nam mollitia iste deserunt vel, repellat! Similique ut hic voluptate ab, suscipit!
+        <span><i class="fa fa-quote-right mx-5"></i></span></p>
+            <p class="mb-5"><strong>Clint</strong>, Executive manager
+, Company</p>
+          </div>
+      </div>
+        <div class="swiper-slide">
+        	<div class="item">
+            <p><span><i class="fa fa-quote-left mx-5"></i></span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta saepe atque, culpa animi assumenda asperiores reprehenderit voluptatum suscipit reiciendis beatae sunt minima ea ipsam neque nam ipsa eligendi tenetur earum! Quia, unde! Veritatis nulla eum aliquam numquam modi excepturi ipsam voluptates quod tempore commodi expedita, delectus quidem ut qui? Perferendis nihil quod quibusdam tenetur deleniti illum maxime repudiandae aliquid maiores, alias, eveniet minima magnam doloremque fuga rem quidem ut beatae, consequatur fugiat, delectus dolorum sapiente quo et reiciendis! Nostrum, debitis?
+        <span><i class="fa fa-quote-right mx-5"></i></span></p>
+            <p class="mb-5"><strong>Clint</strong>, Executive manager
+, Company</p>
+          </div>
+      </div>
+        <div class="swiper-slide">
+        	<div class="item">
+            <p><span><i class="fa fa-quote-left mx-5"></i></span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sed ea aspernatur repellat deleniti at velit et, aliquid impedit accusantium qui adipisci, explicabo. At quos atque nobis beatae, rem ad, asperiores ea voluptatibus vitae est, odit enim ab sit. Temporibus totam nobis dignissimos, impedit earum praesentium iure officiis delectus natus quia non hic, voluptatum voluptatem, reprehenderit rerum laudantium consectetur eos in quidem quam. Eaque cumque nobis vel possimus incidunt a?
+        <span><i class="fa fa-quote-right mx-5"></i></span></p>
+            <p class="mb-5"><strong>Clint</strong>, Executive manager
+, Company</p>
+          </div>
+      </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <hr style="background: #FFF;">
+  </div>
+</section> -->
+  <!-- testimonials-section End-->
+
+
+
+  <!-- form-section -->
+  <section class="container-fluid  form-section">
+  	<div class="row ">
+  		<div class="col-lg-6 form-area">
+  			<h1>Get In <span>Touch</span></h1>
+  		<form action="contact.php" method="post">
+  <div class="col">
+  	<label for="first-name" class="form-label">First Name</label>
+    <input type="text" class="form-control" placeholder="" id="first-name" aria-label="First name" required>
+  </div>
+   <div class="col">
+    <label for="email" class="form-label">Email Address</label>
+    <input type="email" class="form-control" placeholder="" id="email" aria-label="Email name" required="">
+  </div>
+  <div class="col">
+  	<label for="phone-no" class="form-label">Phone Number</label>
+    <input type="number" class="form-control" placeholder="" id="phone-no" aria-label="Phone name" maxlength="10"required>
+  </div>
+  <label for="message" class="form-label">Messages</label>
+  <textarea class="form-control" id="message" rows="3"></textarea>
+  <button type="submit" class="btn mt-2">Send Message</button>
+  		</form>
+  	</div>
+  <!-- form-section End-->
+  <!-- Map Area -->
+  <div class="col-lg-6 map-area">
+  	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14717.92898146395!2d75.8842457!3d22.7474779!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x408653dd32d215bf!2sCotex%20India!5e0!3m2!1sen!2sin!4v1633845759541!5m2!1sen!2sin" style="border:0; width: 100%; height: 100%; margin-bottom: -6px;" allowfullscreen loading="lazy"></iframe>
+  </div>
+  </section>
+  <!-- Map Area End-->
+<!-- Follow Us -->
+<section class="follow-section">
+  <div class="container">
+    <h4>Follow us on</h4>
+    <h1>INSTAGRAM</h1>
+    <a href="" class="follow-btn btn">@cotex_lifestyle</a>
+  </div>
+</section>
+<!-- Follow Us End-->
+
+<!-- footer section -->
+<section class="footer">
+	<div class="container">
+	<div class="row">
+        <div class="box col-md-3">
+            <img src="images/COTEX Fotter.jpg" class="img-fluid">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, nesciunt!</p>
+        </div>
+
+        <div class="box col-md-3">
+            <h3>category</h3>
+            <a href="#"> <i class="fa fa-arrow-right"></i> men </a>
+            <a href="#"> <i class="fa fa-arrow-right"></i> women </a>
+            <a href="#"> <i class="fa fa-arrow-right"></i> enquiry </a>
+            <a href="#"> <i class="fa fa-arrow-right"></i> new arrivals </a>
+        </div>
+
+        <div class="box col-md-3">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fa fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fa fa-arrow-right"></i> products </a>
+            <a href="#"> <i class="fa fa-arrow-right"></i> about us </a>
+            <a href="#"> <i class="fa fa-arrow-right"></i> contact </a>
+        </div>
+
+        <div class="box col-md-3">
+            <h3>Contact Us</h3>
+            <a href="#"> <i class="fa fa-map-marker"></i> <span>752,Bajrang Nagar,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Indore 452011,(M.P.)</span> </a>
+            <a href="tel:9425317154"> <i class="fa fa-phone"></i> <span>+91-9425317154</span></a>
+            <a href="#"> <i class="fa fa-envelope "></i> <span>mail@cotexindia.in</span></a>
+        </div>
+
+    </div>
+
+    <div class="share">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-instagram"></a>
+    </div>
+
+    <div class="credit"> &copy; copyright @ 2021 <span><a href="">SNG Infotechs</a></span> </div>
+    
+</section>
+
+<!-- footer section ends -->
+<script src="js/slider.js"></script>
+<script src="js/counter.js"></script>
+<script src="js/menu.js"></script>
+
+    
+</body>
+<script>
+      var swiper = new Swiper(".arrivalSwiper", {
+        loop:true,
+        slidesPerView: 4,
+        spaceBetween: 30,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        breakpoints: {
+           0: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".testimonial", {
+        loop:true,
+         autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        
+          breakpoints: {
+           0: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+              pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+          },
+          
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+            pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+          },
+      });
+    </script>
